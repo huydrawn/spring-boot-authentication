@@ -1,4 +1,4 @@
-package edu.tech.authentication.api.service.authentication;
+package edu.tech.authentication.api.service.authentication.normal;
 
 import java.util.Optional;
 
@@ -8,6 +8,7 @@ import org.springframework.util.StringUtils;
 
 import edu.tech.authentication.api.dto.authentication.AuthenticationRequestDTO;
 import edu.tech.authentication.api.dto.authentication.NormalAuthenticationRequestDTO;
+import edu.tech.authentication.api.service.authentication.AuthenticationResolver;
 import edu.tech.authentication.config.exception.IllegalRequestAuthenticationException;
 import edu.tech.authentication.config.exception.InvalidAuthenticationException;
 import edu.tech.authentication.model.NormalAccount;
